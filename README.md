@@ -5,7 +5,7 @@
 OpenMind analyzes your ChatGPT conversation history and generates an interactive dashboard that surfaces your cognitive patterns, topic interests, emotional trends, behavioral evolution, and personality insights — all discovered from your data, with zero assumptions about who you are or what you discuss.
 
 ---
-
+![OpenMind Architecture](OpenMind.png)
 ## What You Get
 
 A self-contained HTML dashboard with 10 interactive sections:
