@@ -129,7 +129,57 @@ Your conversation data is processed locally in your Colab runtime. Raw messages 
 - [ ] Anonymized benchmarking (compare your patterns to aggregate)
 
 ---
+## Project Mind Map
+```mermaid
+graph LR
+    OM((OpenMind)) --> A[Architecture]
+    OM --> D[Dashboard]
+    OM --> T[Technical Stats]
+    OM --> E[Engineering]
+    OM --> F[Future Roadmap]
 
+    A --> A1[ML Pipeline]
+    A --> A2[LLM Layer]
+    A --> A3[Template]
+
+    A1 --> A1a[MiniLM-L6-v2 Embeddings]
+    A1 --> A1b[Adaptive BERTopic]
+    A1 --> A1c[DistilRoBERTa Emotions]
+    A1 --> A1d[DeBERTa-v3 Zero-Shot]
+    A1 --> A1e[BERT-NER Entities]
+    A1 --> A1f[PELT Change Points]
+
+    A2 --> A2a[GPT-4o-mini Topic Labels]
+    A2 --> A2b[Personality Archetype]
+    A2 --> A2c[Journey Narrative]
+
+    A3 --> A3a[Three.js 3D Character]
+    A3 --> A3b[Canvas Brain Map]
+    A3 --> A3c[10 Interactive Tabs]
+
+    D --> D1[Identity & Biases]
+    D --> D2[Behavioral Scores]
+    D --> D3[20 Topic Clusters]
+    D --> D4[Brain Network Graph]
+    D --> D5[Wellness & Burnout]
+    D --> D6[Journey Chapters]
+    D --> D7[Future Paths]
+
+    T --> T1[15 min on Colab T4]
+    T --> T2[$0.05 API Cost]
+    T --> T3[7 Pretrained Models]
+    T --> T4[96KB HTML Output]
+
+    E --> E1[Adaptive HDBSCAN Search]
+    E --> E2[LLM Label Refinement]
+    E --> E3[Linear Wellness Scaling]
+    E --> E4[Separated Logic & Presentation]
+
+    F --> F1[Free LLM - Gemini/Phi-3]
+    F --> F2[Web App - React/FastAPI]
+    F --> F3[Multi-Platform Support]
+    F --> F4[Team Analytics]
+```
 ## License
 
 MIT
